@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/superguide_lib",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Business logic library for Starter with Zustand stores",
   "type": "module",
   "main": "dist/index.js",
@@ -35,16 +35,16 @@
   "author": "Sudobility",
   "license": "BUSL-1.1",
   "peerDependencies": {
-    "@sudobility/types": "^1.9.54",
+    "@sudobility/types": "^1.9.55",
     "@tanstack/react-query": ">=5.0.0",
     "react": ">=18.0.0",
     "zustand": ">=5.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",
-    "@sudobility/superguide_client": "^0.0.11",
-    "@sudobility/superguide_types": "^0.0.7",
-    "@sudobility/types": "^1.9.54",
+    "@sudobility/superguide_client": "^0.0.12",
+    "@sudobility/superguide_types": "^0.0.8",
+    "@sudobility/types": "^1.9.55",
     "@tanstack/react-query": "^5.90.5",
     "@testing-library/react": "^16.3.2",
     "@testing-library/react-hooks": "^8.0.1",
