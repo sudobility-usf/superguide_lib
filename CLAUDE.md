@@ -35,7 +35,7 @@ src/
 ```bash
 bun run build          # Build ESM
 bun run clean          # Remove dist/
-bun test               # Run tests
+bun test               # Run tests (Vitest, src/business/stores/historiesStore.test.ts)
 bun run typecheck      # TypeScript check
 bun run lint           # Run ESLint
 bun run verify         # All checks + build (use before commit)
@@ -105,9 +105,3 @@ superguide_app / superguide_app_rn
 - `useRef` guards prevent duplicate fetches on mount; be careful not to break this guard when modifying the hook
 - This is a published npm package (`@sudobility/superguide_lib`) -- coordinate breaking changes with superguide_app and superguide_app_rn
 
-## Testing
-
-- Run tests: `bun test`
-- Tests are in `src/business/stores/historiesStore.test.ts`
-- Tests cover Zustand store operations (set, get, add, update, remove) and hook behavior
-- Uses Vitest as the test runner
