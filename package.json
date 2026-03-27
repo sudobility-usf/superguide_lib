@@ -63,5 +63,9 @@
     "typescript": "~5.9.3",
     "vitest": "^4.0.15",
     "zustand": "^5.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudobility-usf/superguide_lib.git"
   }
 }
