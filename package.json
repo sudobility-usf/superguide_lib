@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",
-    "@sudobility/superguide_client": "^0.0.15",
-    "@sudobility/superguide_types": "^0.0.11",
+    "@sudobility/superguide_client": "file:../superguide_client",
+    "@sudobility/superguide_types": "file:../superguide_types",
     "@sudobility/types": "^1.9.59",
     "@tanstack/react-query": "^5.90.5",
     "@testing-library/react": "^16.3.2",

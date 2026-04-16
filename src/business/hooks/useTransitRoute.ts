@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { type RouteInfo, resolveTransitRoute } from '../utils/geo';
+import { resolveTransitRoute, type RouteInfo } from '../utils/geo';
 
 /**
  * Return type for the {@link useTransitRoute} hook.
@@ -25,7 +25,7 @@ export interface UseTransitRouteReturn {
  */
 export const useTransitRoute = (
   fromName: string,
-  toName: string,
+  toName: string
 ): UseTransitRouteReturn => {
   const [routeInfo, setRouteInfo] = useState<RouteInfo | null>(null);
   const [loading, setLoading] = useState(true);
