@@ -105,3 +105,11 @@ superguide_app / superguide_app_rn
 - `useRef` guards prevent duplicate fetches on mount; be careful not to break this guard when modifying the hook
 - This is a published npm package (`@sudobility/superguide_lib`) -- coordinate breaking changes with superguide_app and superguide_app_rn
 
+## Task Workflow
+
+- Read `plans/ACTIVE_TASK.md` before starting work.
+- If `plans/ACTIVE_TASK.md` says `idle`, do not self-assign from the backlog.
+- Use `plans/STATUS.md` for progress notes, blockers, verification results, and handoff context.
+- Use `plans/WORK_QUEUE.md` for backlog management only; keep the live assignment in `plans/ACTIVE_TASK.md`.
+- Treat `plans/IMPROVEMENTS.md` as reference material, not the source of truth for the current assignment.
+- Assume only one active task in this repo unless `plans/ACTIVE_TASK.md` explicitly says otherwise.
